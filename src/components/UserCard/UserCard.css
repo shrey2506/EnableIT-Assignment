@@ -1,0 +1,28 @@
+.card-element{
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.id{
+    border: 0.5px black solid;
+    max-width: 500px;
+    background: white;
+    border-radius: 15px;
+    padding: 2px 5px;
+    margin: 1px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 480px) {
+    .card-element{
+        margin: 10px 5%;
+    }
+  }

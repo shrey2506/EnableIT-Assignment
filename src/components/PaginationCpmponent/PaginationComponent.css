@@ -1,0 +1,48 @@
+.pagination-button-next{
+    position: fixed;
+    z-index: 1;
+    bottom: 10px;
+    right: 40%;
+    
+}
+
+.pagination-button-prev{
+    position: fixed;
+    z-index: 1;
+    right: 50%;
+    bottom: 10px;
+}
+
+.pagination-button{
+    max-width: 150px;
+    margin: 4px 10px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    background: rgb(3, 61, 61);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .pagination-button-next{
+        position: fixed;
+        z-index: 1;
+        bottom: 10px;
+        right: 20%;
+    }
+    
+    .pagination-button-prev{
+        position: fixed;
+        z-index: 1;
+        right: 50%;
+        bottom: 10px;
+    }
+
+    .pagination-button{
+        font-size: 20px;
+    }
+   
+
+  }
